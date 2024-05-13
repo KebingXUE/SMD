@@ -143,9 +143,16 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/method_overview.jpg" alt=""/>
+        <img src="static/images/method_overview.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Method overview: 1) From each mesh in the motion data, the vertex coordinates in the local frame are transformed into spectral coefficients by using a graph Fourier transformation; 2) The coefficients together with the rotations and translations are used to train the diffusion model; 3) After training, Spectral-Temporal Autoencoder (STAE) generates motion from random noise, conditioned on a conditioning signal $z_d$ and a target mesh embedding $z_s$, by denoising it iteratively.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/intro.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Shape conditioned generation results of SMD. $A_1$, $A_2$, and $A_3$ are based on $A$. $B_1$, $B_2$, and $B_3$ are generated when $B$ is the target mesh.
         </h2>
       </div>
     </div>
